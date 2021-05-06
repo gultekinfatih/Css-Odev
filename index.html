@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap Dükkanım</title>
+  <style>
+      .center { 
+          text-align: center; /* içerik sayfa merkezlendi */
+          }
+      .list-inside { 
+        list-style-position: inside; /* lilerin noktaları yazının yanına taşındı*/
+      }
+      .li-inline {
+          display: inline; /* liler yanyana getirildi*/
+          padding-right: 4px; /*içeriğin sağ tarafında boşluk oluşturuldu*/
+      }
+      .list-none {
+          list-style-type: none; /* lilerin önündeki sembol kaldırıldı*/
+      }
+      h1 {
+          color:#78138f;
+      }
+      h2 {
+          color:#726a95;
+      }
+      h3 {
+          color:#719fb0;
+      }
+      .height {
+          height: 300px; /*resimlerin boyu ayarlandı*/
+          width: 200px; /*resimlerin genişliği ayarlandı*/
+      }
+  </style>
+</head>
+<body>
+        <!-- Header başlangıç -->
+        <header> 
+                <!-- Nav oluşturuldu -->
+                <nav class="center"> 
+                    <h1>Kitap Dükkanım</h1>
+                     <ul>
+                        <li class="li-inline"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="li-inline"><a href="urunlerimiz.html">Ürünlerimiz</a></li>
+                        <li class="li-inline"><a href="about.html">Hakkımızda</a></li>
+                    </ul>
+                </nav>
+             
+        </header>
+        <!-- Header bitiş -->
+        <!-- Section başlangıç -->
+        <section class="center">
+            <article>
+                    <h2> Ana Sayfa</h2>
+                    <p>Kitap Dükkanım sitemize hoş geldiniz! Bu sitede çeşitli kitapları bulabilirsiniz. 
+                    Uygun fiyatlı ve sürükleyici kitaplarımız içn <a href="">Ürünlerimiz</a> sayfamızı ziyaret edebilirsiniz.
+                    </p>
+            </article>
+            <article>
+                    <h3>Sitemizde Eserleri Bulunan Yazarlar</h3>
+                    <ul class="list-inside">
+                        <li>José Saramago</li>
+                        <li>William Golding</li>
+                        <li>Yuval Noah Harari</li>
+                        <li>Fyodor Dostoyevski</li>
+                        <li>Johann Wolfgang von Goethe</li>
+                    </ul>
+            </article>
+        </section>
+        <!-- Section bitiş -->
+</body>
+</html>

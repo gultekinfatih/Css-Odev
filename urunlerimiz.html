@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap Dükkanım</title>
+  <style>
+      .center { 
+          text-align: center; /* içerik sayfa merkezlendi */
+          }
+      .list-inside { 
+        list-style-position: inside; /* lilerin noktaları yazının yanına taşındı*/
+      }
+      .li-inline {
+          display: inline; /* liler yanyana getirildi*/
+          padding-right: 4px; /*içeriğin sağ tarafında boşluk oluşturuldu*/
+      }
+      .list-none {
+          list-style-type: none; /* lilerin önündeki sembol kaldırıldı*/
+      }
+      h1 {
+          color:#78138f;
+      }
+      h2 {
+          color:#726a95;
+      }
+      h3 {
+          color:#719fb0;
+      }
+      .height {
+          height: 300px; /*resimlerin boyu ayarlandı*/
+          width: 200px; /*resimlerin genişliği ayarlandı*/
+      }
+      figcaption {font-style: italic;}
+  </style>
+</head>
+<body>
+        <!-- Header başlangıç -->
+        <header> 
+                <!-- Nav oluşturuldu -->
+                <nav class="center"> 
+                    <h1>Kitap Dükkanım</h1>
+                     <ul>
+                        <li class="li-inline"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="li-inline"><a href="urunlerimiz.html">Ürünlerimiz</a></li>
+                        <li class="li-inline"><a href="about.html">Hakkımızda</a></li>
+                    </ul>
+                </nav>
+        </header>
+        <!-- Header bitiş -->
+        <section class="center">
+            <article>
+                <h2>Ürünlerimiz</h2>
+            </article>
+            <article class="center">
+                <ol class="list-inside list-none">
+                    <li>
+                        <figure>
+                            <a href="https://www.goodreads.com/book/show/10369589-ezilenler?from_search=true&from_srp=true&qid=EQ7RQXe3L5&rank=1" target="_blank">
+                            <img src="img/ezilenler.jpg" alt="Ezilenler" class="height" title="Ezilenler"></a>
+                            <figcaption>Ezilenler by Fyodor Dostoyevsky</figcaption> <!--Figcaption/resim açıklaması eklendi-->
+                        </figure>
+                    </li> <br>
+                    <li>
+                        <figure>
+                            <a href="https://www.goodreads.com/book/show/406373.Faust?ac=1&from_search=true&qid=9Uz7AHJme2&rank=3" target="_blank">
+                             <img src="img/faust.jpg" alt="Faust" class="height" title="Faust"></a>
+                            <figcaption>Faust by Johann Wolfgang von Goethe</figcaption>
+                        </figure>
+                    </li> <br>
+                    <li>
+                        <figure>
+                            <a href="https://www.goodreads.com/book/show/15812978-k-rl-k?ac=1&from_search=true&qid=z07311izZ9&rank=1" target="_blank">
+                             <img src="img/körlük.jpg" alt="Körlük" class="height" title="Körlük"></a>
+                            <figcaption>Körlük by José Saramago</figcaption>
+                        </figure>
+                    </li> <br>
+                    <li>
+                        <figure>
+                            <a href="https://www.goodreads.com/book/show/23692271-sapiens?ac=1&from_search=true&qid=OYXpLm1vXx&rank=1" target="_blank">
+                             <img src="img/sapiens.jpg" alt="Sapiens:Hayvanlardan Tanrılara" class="height" title="Sapiens:Hayvanlardan Tanrılara"></a>
+                            <figcaption>Sapiens:Hayvanlardan Tanrılara by Yuval Noah Harari</figcaption>
+                        </figure>
+                    </li> <br>
+                    <li>
+                        <figure>
+                            <a href="https://www.goodreads.com/book/show/13580479-sineklerin-tanr-s?ac=1&from_search=true&qid=d7FzxmYUaZ&rank=1" target="_blank">
+                            <img src="img/sineklerintanrısı.jpg" alt="Sineklerin Tanrısı" class="height" title="Sineklerin Tanrısı"></a>
+                            <figcaption>Sineklerin Tanrısı by William Golding</figcaption>
+                        </figure>
+                    </li>
+                </ol>
+            </article>
+        </section>
